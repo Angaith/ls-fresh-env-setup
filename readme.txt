@@ -1,0 +1,11 @@
+- [command: Set-ExecutionPolicy RemoteSigned -Scope LocalMachine -Force] enable script execution
+- [script: add_hosts_entry] adjust hosts (if needed, config hardcoded, adjust as needed)
+- [script: create_ls_cert] create a cert (if needed, config hardcoded, adjust as needed)
+- [script: enable_long_paths] enable long paths
+- [script: enable_features] install windows roles and features
+- [reboot]
+- [script: install_choco] install choco (and install .net 4.8 automatically)
+- [reboot]
+- [script: install_choco_packages] install choco packages															
+- [reboot]
+- [script: checklist] run the checklist script to confirm the setup status	
